@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="./register-page.html" class="active">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <section class="forms">
+      <form action="">
+        <h3>Registration Form</h3>
+
+        <label for="fname">First Name</label>
+        <input type="text" name="text" id="fname" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="lname">Last Name</label>
+        <input type="text" name="text" id="lname" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="phone">Phone Num</label>
+        <input type="tel" name="tel" id="phone" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="not_say">I prefer not to say</option>
+        </select>
+        <span>*</span>
+        <br />
+        <br />
+        <label for="school">School of choice</label>
+        <select name="school" id="school" required>
+          <option value="engineer">School of engineer</option>
+          <option value="product">School of product</option>
+          <option value="not_say">I prefer not to say</option>
+        </select>
+        <span>*</span>
+        <br />
+        <br />
+        <label for="study">Course of Study</label>
+        <select name="study" id="study" required>
+          <option value="FE">Frontend</option>
+          <option value="BE">Backend</option>
+          <option value="not_say">I prefer not to say</option>
+        </select>
+        <span>*</span>
+        <br />
+        <br />
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="state">State/Province</label>
+        <input type="text" name="country" id="state" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="uname">Username</label>
+        <input type="text" name="username" id="uname" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="pass">Password</label>
+        <input type="password" name="Pass" id="pass" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="pass">Confirm password</label>
+        <input type="password" name="Pass" id="pass" required />
+        <span>*</span>
+        <br />
+        <br />
+        <label for="us">How did you hear about us</label>
+        <select name="us" id="us" required>
+          <option value="twitter">Twitter</option>
+          <option value="facebook">Facebook</option>
+          <option value="not_say">I prefer not to say</option>
+        </select>
+        <br />
+        <section class="privacy">
+          <p>
+            By clicking continue, I agree to
+            <a href="http:/#/"> Terms of Use </a> and acknowledge that i have
+            read the <a href="http:/#/"> Privacy Policy</a>.
+          </p>
+        </section>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+        <section>
+          <p>Already have an account? <a href="http://#">Sing in</a></p>
+        </section>
+      </form>
+    </section>
+
+    <!-- <footer>
+      <h5>&copy; Copyrights by Olakunle Hassan</h5>
+    </footer> -->
+  </body>
+</html>
